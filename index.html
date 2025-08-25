@@ -4,45 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CssFlexSite</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/fonts/Segoe UI/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <header>
-        <h1 class="title">Welcome To Traversy Media</h1>
-        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, vel.</p>
+    <header class="flex">
+        <div>
+            <h1 class="title w-text">Welcome to traversy media</h1>
+            <p class="text w-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, vel.</p>
+        </div>
+        <div class="content">
+            <img src="https://image.ibb.co/ims4Ep/logo.png" class="logo" alt="Traversy Media">
+        </div>
     </header>
-    <section class="services darkBg container">
-        <div>
+    <section class="dark-bg">
+    <section class="flex container">
+        <article>
             <i class="fa-brands fa-youtube fa-3x"></i>
-            <h3>Youtube</h3>
+            <h3 class="subtitle">Youtube</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi aperiam.  </p>
-        </div>
-        <div>
+        </article>
+        <article>
             <i class="fa-solid fa-chalkboard-user fa-3x"></i>
-            <h3>Courses</h3>
+            <h3 class="subtitle">Courses</h3>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore, illo!</p>
-        </div>
-        <div>
+        </article>
+        <article>
             <i class="fa-solid fa-briefcase fa-3x"></i>
-            <h3>Freelancing Projects</h3>
+            <h3 class="subtitle">Freelancing Projects</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, labore.</p>
-        </div>
+        </article>
     </section>
-    <section class="about grid-2">
-        <div class="container">
-            <!-- <div class="center"> -->
+    </section>
+    <section class="about">
+        <div class="container flex">
+            <div class="center">
                 <i class="fa-solid fa-laptop fa-10x"></i>
             </div>
                 <div class="left">
-                    <h3>About us</h3>
+                    <h3 class="subtitle-about">About us</h3>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis quis culpa neque quas aspernatur pariatur asperiores impedit consectetur, dolorem odit, facere ducimus quisquam quod, consequuntur aliquam atque animi error autem? Nulla esse totam dolores vel distinctio quia temporibus, praesentium repudiandae harum quas deserunt similique, expedita odit at libero! Ullam, mollitia delectus placeat cum nam magnam deserunt quam id neque totam!
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non eos aperiam labore consectetur maiores ea magni exercitationem similique laborum sed, unde, autem vel iure doloribus aliquid. Aspernatur explicabo consectetur consequatur non nesciunt debitis quos alias soluta, ratione, ipsa officia reiciendis.
                     </p>
                 </div>      
         </div>
     </section>
-    <footer class="darkBg">
+    <footer class="dark-bg">
         <p>Traversy Media © 2019</p>
     </footer>
 </body>
